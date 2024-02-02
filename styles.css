@@ -1,3 +1,28 @@
 body {
-    background-color: lightgray;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+}
+
+header {
+    background-color: #CCC;
+    padding: 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main section h2 {
+    margin-top: 40px;
+    border-bottom: solid 1px #000;
+    padding-bottom: 5px;
+}
+
+main section {
+    margin-bottom: 80px;
+}
+
+main {
+    padding: 0 40px;
 }
