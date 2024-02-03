@@ -1,15 +1,27 @@
+const img = document.querySelector("#current-image");
+const caption = document.querySelector("#caption");
+
 function showCat() {
-    console.log("This is a cat");
+    img.src = "images/cat.jpg";
+    caption.innerHTML = "This is a cat";
 }
 
 function showDog() {
-    console.log("This is a dog");
+    img.src = "images/dog.jpg";
+    caption.innerHTML = "This is a dog";
 }
 
 function showBird() {
-    console.log("This is a bird");
+    img.src = "images/bird.jpg";
+    caption.innerHTML = "This is a bird";
 }
 
 function showFish() {
-    console.log("This is a fish");
+    img.src = "images/fish.jpg";
+    caption.innerHTML = "This is a fish";
+}
+
+function showSloth() {
+    img.src = "images/sloth.jpg";
+    caption.innerHTML = "This is a sloth";
 }
