@@ -1,22 +1,16 @@
-function makeRed() {
-    document.querySelector("#section1").style.backgroundColor = "red";
+function makeRed () {
+    console.log("turn first div red");
 }
 
-function makeBlue() {
-    document.querySelector("#section2").style.backgroundColor = "lightBlue";
+function makeBlue () {
+    console.log("turn 2nd div blue");
 }
 
-function makePink() {
-    document.querySelector("#section3").style.backgroundColor = "pink";
+function makePink () {
+    console.log("turn 3rd div pink");
 }
 
-function makeOrange() {
-    document.querySelector("#section4").style.backgroundColor = "orange";
+function makeOrange () {
+    console.log("turn 4th div orange");
 }
 
-function reset() {
-    document.querySelector("#section1").style.backgroundColor = "white";
-    document.querySelector("#section2").style.backgroundColor = "white";
-    document.querySelector("#section3").style.backgroundColor = "white";
-    document.querySelector("#section4").style.backgroundColor = "white";
-}

@@ -36,7 +36,3 @@ button {
     margin-right: 10px;
     cursor: pointer;
 }
-
-button:hover {
-    background: #AAA;
-}

@@ -1,6 +1,6 @@
 body {
-    max-width: 600px;
-    margin: 30px auto;
+    max-width: 500px;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,5 +9,5 @@ body {
     background: #F0F0F0;
     min-height: 100px;
     margin-top: 10px;
-    width: 400px;
+    width: 100%;
 }
