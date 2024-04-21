@@ -1,6 +1,6 @@
 import React from "react";
-import {Image, Carousel, Timeline} from "antd";
-import Person from "./Person.jsx";
+import { Image, Carousel, Timeline } from "antd";
+import Profile from "./Profile.jsx";
 import "./App.css";
 
 export default function App() {
@@ -9,62 +9,129 @@ export default function App() {
             <header>
                 <h1>My First App</h1>
             </header>
-            <main> 
-                               
-                <div className="image-container">
+            <main>
+                <div className="container">
+                    <h2>Here are some custom components</h2>
+                    <div className="cards">
+                        <Profile
+                            name="Wanda"
+                            picture="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                        />
+
+                        <Profile
+                            name="Adwaina"
+                            picture="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        />
+
+                        <Profile
+                            name="Andrea"
+                            picture="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*"
+                        />
+
+                        <Profile
+                            name="Laciesha"
+                            picture="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg"
+                        />
+                    </div>
+                </div>
+
+                <div className="container">
                     <h2>Here are some images</h2>
-                    <Image src="https://picsum.photos/400/400?id=1" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=2" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=3" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=4" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=5" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=6" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=7" width={200} />
-                    <Image src="https://picsum.photos/400/400?id=8" width={200} />
+                    <Image
+                        src="https://picsum.photos/400/400?id=1"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=2"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=3"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=4"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=5"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=6"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=7"
+                        width={200}
+                    />
+                    <Image
+                        src="https://picsum.photos/400/400?id=8"
+                        width={200}
+                    />
                 </div>
 
                 <div className="carousel-container">
                     <h2>Here is a carousel</h2>
-                    <Carousel dotPosition="bottom" autoplaySpeed={5000}>
-                        <img src="https://picsum.photos/500/300?id=9" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=10" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=11" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=12" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=13" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=14" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=15" alt="Alt text" />
-                        <img src="https://picsum.photos/500/300?id=16" alt="Alt text" />
+                    <Carousel dotPosition="top" autoplaySpeed={5000}>
+                        <div className="center-me">
+                            <p>Hello, Janice!</p>
+                        </div>
+                        <img
+                            src="https://picsum.photos/500/300?id=9"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=10"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=11"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=12"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=13"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=14"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=15"
+                            alt="Alt text"
+                        />
+                        <img
+                            src="https://picsum.photos/500/300?id=16"
+                            alt="Alt text"
+                        />
                     </Carousel>
                 </div>
-                
+
                 <div className="container">
                     <h2>Here is a timeline</h2>
                     <Timeline
                         items={[
                             {
-                                children: 'Interviewed the client',
+                                children: "Interviewed the client",
                             },
                             {
-                                children: 'Conducted user research',
+                                children: "Conducted user research",
                             },
                             {
-                                children: 'Built low-fidelity prototype',
+                                children: "Built low-fidelity prototype",
                             },
                             {
-                                children: 'Built high-fidelity prototype using Figma',
+                                children:
+                                    "Built high-fidelity prototype using Figma",
                             },
                         ]}
                     />
                 </div>
-                <div className="carousel-container">
-                    <h2>Here is a custom component</h2>
-
-                    <Person />
-                    <Person />
-                    <Person />
-
-                </div>
-
             </main>
         </>
     );

@@ -1,6 +1,5 @@
 header,
 .carousel-container,
-.image-container,
 .container {
     width: 800px;
     margin: auto;
@@ -14,8 +13,26 @@ header,
     border-radius: 10px;
 }
 
+.center-me {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    height: 300px;
+    font-size: 25px;
+}
 
-/* Added some custom CSS for the buttons */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+
+/* Sarah added some custom CSS here for the carousel buttons */
 .ant-carousel .slick-dots {
     width: 20px;
 }
