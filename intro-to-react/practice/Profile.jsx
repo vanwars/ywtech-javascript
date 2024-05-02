@@ -20,7 +20,7 @@ export default function Profile({ name, picture, bio }) {
         <section className={activeClass} onClick={showFullscreen}>
             <img src={picture} />
             <h3>{name}</h3>
-            <div>{bio}</div>
+            <div className="bio">{bio}</div>
             <button id="regular" onClick={showRegular}>
                 Back
             </button>

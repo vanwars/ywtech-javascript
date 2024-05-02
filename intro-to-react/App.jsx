@@ -21,25 +21,12 @@ export default function App() {
                     <ButtonCount />
                     <ButtonCount />
                     <ButtonCount />
+
                     <div className="cards">
-                        <Profile
-                            name="Adwaina"
-                            picture="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        />
-
-                        <Profile
-                            name="Andrea"
-                            picture="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*"
-                        />
-
-                        <Profile
-                            name="Christina"
-                            picture="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg"
-                        />
-
-                        <Profile
+                        <ProfileFancy
                             name="Laciesha"
-                            picture="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg"
+                            picture="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*"
+                            bio="This is Laciesha's bio."
                         />
 
                         <ProfileFancy
@@ -58,6 +45,36 @@ export default function App() {
                             name="Wanda"
                             picture="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                             bio="This is Wanda's bio."
+                        />
+
+                        <ProfileFancy
+                            name="Adwaina"
+                            picture="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                            bio="This is Adwaina's bio."
+                        />
+
+                        <ProfileFancy
+                            name="Andrea"
+                            picture="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*"
+                            bio="This is Andrea's bio."
+                        />
+
+                        <ProfileFancy
+                            name="Christina"
+                            picture="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg"
+                            bio="This is Christina's bio."
+                        />
+
+                        <ProfileFancy
+                            name="Silas"
+                            picture="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            bio="This is Silas's bio."
+                        />
+
+                        <ProfileFancy
+                            name="Anita"
+                            picture="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                            bio="This is Anita's bio."
                         />
                     </div>
                 </div>
