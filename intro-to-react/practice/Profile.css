@@ -16,16 +16,16 @@
     margin: 10px;
 }
 
-.profile.full-screen button {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+.profile button {
+    display: none;
 }
 
 .profile h3 {
     text-align: center;
 }
 
+
+/* Fullscreen styling... */
 .profile.full-screen {
     position: fixed;
     top: 0;
@@ -45,4 +45,11 @@
     width: auto;
     object-fit: cover;
     height: auto;
+}
+
+.profile.full-screen button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: inherit;
 }
