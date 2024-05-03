@@ -2,6 +2,11 @@
     border: solid 1px #ccc;
     border-radius: 5px;
     width: 300px;
+    transition: transform 0.5s;
+}
+
+.profile:hover {
+    transform: scale(1.05);
 }
 
 .profile img {
@@ -12,20 +17,22 @@
 
 .profile button,
 .profile div,
-.profile h3 {
+.profile h3,
+.profile p {
     margin: 10px;
 }
 
-.profile.full-screen button {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+.profile button,
+.profile .bio {
+    display: none;
 }
 
 .profile h3 {
     text-align: center;
 }
 
+
+/* Fullscreen styling... */
 .profile.full-screen {
     position: fixed;
     top: 0;
@@ -39,10 +46,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition-property: none;
+}
+
+.profile.full-screen:hover {
+    transform: scale(1);
 }
 
 .profile.full-screen img {
-    width: auto;
+    width: 800px;
     object-fit: cover;
-    height: auto;
+    height: 500px;
+}
+
+.profile.full-screen button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.profile.full-screen button,
+.profile.full-screen .bio {
+    display: inherit;
 }

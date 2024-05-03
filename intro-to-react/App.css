@@ -26,11 +26,8 @@ header,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin-top: 20px;
 }
-
-
-
-
 
 /* Sarah added some custom CSS here for the carousel buttons */
 .ant-carousel .slick-dots {
